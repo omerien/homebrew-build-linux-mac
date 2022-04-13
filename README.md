@@ -4,6 +4,7 @@ brew formulae to build linux ON MAC
 ## Instructions
 
 (This is not finished, this should be the end-user experience)
+(If you installed nsabovic/homebrew-public version, uninstall it because it will cause trouble (`brew uninstall elf-header && brew untap nsabovic/homebrew-public`)
 
 0. Install brew at [brew.sh](https://brew.sh)
 1. Execute in Terminal `brew tap omerien/build-linux-mac && brew install elf-header build-linux`
