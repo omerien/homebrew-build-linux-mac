@@ -3,7 +3,7 @@ brew formulae to build linux ON MAC
 
 ## Instructions
 
-(This is not finished, this should be the end-user experience)
+(Do not execute these instructions, the project isn't over)
 (If you installed nsabovic/homebrew-public version, uninstall it because it will cause trouble (`brew uninstall elf-header && brew untap nsabovic/homebrew-public`)
 
 0. Install brew at [brew.sh](https://brew.sh)
