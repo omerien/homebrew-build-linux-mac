@@ -1,4 +1,4 @@
-class buildLinux < Formula
+class BuildLinux < Formula
   desc "Main formulae that brings include files and a patched linux version. DO NOT INSTALL WiP"
   homepage "https://github.com/omerien/build-linux"
   url ""
@@ -13,5 +13,6 @@ class buildLinux < Formula
   depends_on "ncurses"
 
   def install
+    
   end
 end
