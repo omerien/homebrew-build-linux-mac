@@ -15,4 +15,4 @@ brew formulae to build linux ON MAC
 ## Sources
 
 - Future modified Linux : [edwardhalferty.com](https://edwardhalferty.com/2021/12/11/configuring-the-linux-kernel-from-macos/)
-- elf.h fix : (https://github.com/nsabovic/homebrew-public)
+- elf.h fix : https://github.com/nsabovic/homebrew-public
