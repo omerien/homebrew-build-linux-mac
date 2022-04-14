@@ -4,7 +4,8 @@ class ElfHeader < Formula
   url "https://github.com/omerien/build-linux/releases/download/do-not-download/elf.h.1.tar.gz"
   sha256 "810b604a6643aa0840f0fceaaa8814525ede13c26de8c10bb1d346ad0e724f69"
 
-  depends_on "libelf"
+  depends_on "omerien/build-linux-mac/libelf" 
+  # Using local clone because libelf might disappear since it is outdated
 
   def install
     include.install "elf.h"
