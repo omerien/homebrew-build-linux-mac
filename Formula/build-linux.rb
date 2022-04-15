@@ -14,11 +14,14 @@ class BuildLinux < Formula
 
   def install
     include.install "endian.h"
+    include.install "stdio.h" # Because the one of MacOS SDK doesn't work
     include.install "wordswap.h"
     include.install "byteswap.h"
+    include.install "features.h"
     include.install "gnu/stubs.h"
     include.install "gnu/stubs-32.h"
     include.install "gnu/stubs-64.h"
+    include.install "sys/predefs.h"
     include.install "bits/endian.h"
     include.install "bits/predefs.h"
     include.install "bits/wordsize.h"
