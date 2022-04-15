@@ -1,6 +1,6 @@
 class BuildLinux < Formula
   desc "Main formulae that brings include files and a patched linux version. DO NOT INSTALL WiP"
-  homepage "https://github.com/omerien/build-linux"
+  homepage "https://github.com/omerien/build-linux-mac"
   url ""
   sha256 ""
 
@@ -18,6 +18,7 @@ class BuildLinux < Formula
     include.install "wordswap.h"
     include.install "byteswap.h"
     include.install "features.h"
+    include.install "libio.h"
     include.install "gnu/stubs.h"
     include.install "gnu/stubs-32.h"
     include.install "gnu/stubs-64.h"
@@ -26,5 +27,7 @@ class BuildLinux < Formula
     include.install "bits/predefs.h"
     include.install "bits/wordsize.h"
     include.install "bits/byteswap.h"
+    include.install "bits/types.h"
+    include.install "bits/typesizes.h"
   end
 end
