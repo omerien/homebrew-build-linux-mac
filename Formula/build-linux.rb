@@ -21,7 +21,7 @@ class BuildLinux < Formula
     include.install "libio.h"
     include.install "stdarg.h"
     include.install "stddef.h"
-    include.install "wchar.h" ##
+    include.install "wchar.h"
     include.install "_G_config.h"
     include.install "gnu/stubs.h"
     include.install "gnu/stubs-32.h"
