@@ -13,6 +13,15 @@ class BuildLinux < Formula
   depends_on "ncurses"
 
   def install
-    
+    include.install "endian.h"
+    include.install "wordswap.h"
+    include.install "byteswap.h"
+    include.install "gnu/stubs.h"
+    include.install "gnu/stubs-32.h"
+    include.install "gnu/stubs-64.h"
+    include.install "bits/endian.h"
+    include.install "bits/predefs.h"
+    include.install "bits/wordsize.h"
+    include.install "bits/byteswap.h"
   end
 end
