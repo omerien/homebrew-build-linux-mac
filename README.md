@@ -12,6 +12,10 @@ brew formulae to build linux ON MAC
 3. Execute `build-linux menu-config` (it should prompt you the make menuconfig menu)
 4. Execute `build-linux build-it` (it should give you the builded linux)
 
+## Contributors :
+
+- Me, omerien / omerien2
+
 ## Sources
 
 - Future modified Linux : [edwardhalferty.com](https://edwardhalferty.com/2021/12/11/configuring-the-linux-kernel-from-macos/)
