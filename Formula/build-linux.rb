@@ -13,15 +13,18 @@ class BuildLinux < Formula
   depends_on "ncurses"
 
   def install
+    include.install "alloca.h" # Because the one of MacOS SDK doesn't work
     include.install "endian.h"
     include.install "wordswap.h"
     include.install "byteswap.h"
     include.install "features.h"
     include.install "libio.h"
     include.install "stdarg.h"
+    include.install "stdint.h" # Because the one of MacOS SDK doesn't work
     include.install "stddef.h"
     include.install "stdlib.h" # Because the one of MacOS SDK doesn't work
     include.install "stdio.h" # Because the one of MacOS SDK doesn't work
+    include.install "string.h" # Because the one of MacOS SDK doesn't work
     include.install "time.h" # Because the one of MacOS SDK doesn't work
     include.install "unistd.h" # Because the one of MacOS SDK doesn't work
     include.install "wchar.h"
@@ -32,16 +35,21 @@ class BuildLinux < Formula
     include.install "gnu/stubs-64.h"
     include.install "sys/cdefs.h"
     include.install "sys/types.h"
-    include.install "machine/_types.h" ##
+    include.install "sys/select.h" # Because the one of MacOS SDK doesn't work
+    include.install "sys/sysmacros.h"
     include.install "bits/endian.h"
     include.install "bits/predefs.h"
+    include.install "bits/posix_opt.h"
+    include.install "bits/pthreadtypes.h"
+    include.install "bits/select.h"
+    include.install "bits/signet.h"
     include.install "bits/stdio.h"
     include.install "bits/stdio_lim.h"
-    include.install "bits/stdlib.h" ##
     include.install "bits/sys_errlist.h"
     include.install "bits/wordsize.h"
     include.install "bits/wchar.h"
     include.install "bits/byteswap.h"
+    include.install "bits/time.h"
     include.install "bits/types.h"
     include.install "bits/typesizes.h"
   end
