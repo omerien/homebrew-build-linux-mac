@@ -29,7 +29,7 @@ class BuildLinux < Formula
     include.install "time.h" # Because the one of MacOS SDK doesn't work
     include.install "unistd.h" # Because the one of MacOS SDK doesn't work
     include.install "xlocale.h" # Because the one of MacOS SDK doesn't work
-    include.install "_xlocale.h # Clone of xlocale.h
+    include.install "_xlocale.h" # Clone of xlocale.h
     include.install "wchar.h"
     include.install "_G_config.h"
     include.install "i386/types.h" # Because the one of MacOS SDK doesn't work
