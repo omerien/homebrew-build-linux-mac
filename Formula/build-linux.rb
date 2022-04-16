@@ -20,7 +20,7 @@ class BuildLinux < Formula
     include.install "libio.h"
     include.install "stdarg.h"
     include.install "stddef.h"
-    include.install "stdlib.h" ### Because the one of MacOS SDK doesn't work
+    include.install "stdlib.h" # Because the one of MacOS SDK doesn't work
     include.install "stdio.h" # Because the one of MacOS SDK doesn't work
     include.install "wchar.h"
     include.install "_G_config.h"
