@@ -18,8 +18,10 @@ class BuildLinux < Formula
     include.install "wordswap.h"
     include.install "byteswap.h"
     include.install "features.h"
+    include.install "getopt.h" # Because the one of MacOS SDK doesn't work
     include.install "inttypes.h" # Because the one of MacOS SDK doesn't work
     include.install "libio.h"
+    include.install "regex.h" # Because the one in MacOS SDK doesn't work
     include.install "stdarg.h"
     include.install "stdint.h" # Because the one of MacOS SDK doesn't work
     include.install "stddef.h"
@@ -40,6 +42,7 @@ class BuildLinux < Formula
     include.install "sys/types.h"
     include.install "sys/select.h" # Because the one of MacOS SDK doesn't work
     include.install "sys/sysmacros.h"
+    include.install "bits/confname.h"
     include.install "bits/endian.h"
     include.install "bits/predefs.h"
     include.install "bits/posix_opt.h"
@@ -49,6 +52,7 @@ class BuildLinux < Formula
     include.install "bits/stdio.h"
     include.install "bits/stdio_lim.h"
     include.install "bits/string.h"
+    include.install "bits/string2.h"
     include.install "bits/sys_errlist.h"
     include.install "bits/wordsize.h"
     include.install "bits/wchar.h"
