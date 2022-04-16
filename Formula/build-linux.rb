@@ -35,7 +35,7 @@ class BuildLinux < Formula
     include.install "wchar.h"
     include.install "_G_config.h"
     include.install "i386/types.h" # Because the one of MacOS SDK doesn't work
-    include.install "gnu/options-groups.h"
+    include.install "gnu/option-groups.h"
     include.install "gnu/stubs.h"
     include.install "gnu/stubs-32.h"
     include.install "gnu/stubs-64.h"
