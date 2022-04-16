@@ -22,13 +22,16 @@ class BuildLinux < Formula
     include.install "stddef.h"
     include.install "stdlib.h" # Because the one of MacOS SDK doesn't work
     include.install "stdio.h" # Because the one of MacOS SDK doesn't work
+    include.install "time.h" # Because the one of MacOS SDK doesn't work
+    include.install "unistd.h" # Because the one of MacOS SDK doesn't work
     include.install "wchar.h"
     include.install "_G_config.h"
+    include.install "i386/types.h" # Because the one of MacOS SDK doesn't work
     include.install "gnu/stubs.h"
     include.install "gnu/stubs-32.h"
     include.install "gnu/stubs-64.h"
     include.install "sys/cdefs.h"
-    include.install "sys/_types.h" ##
+    include.install "sys/types.h"
     include.install "machine/_types.h" ##
     include.install "bits/endian.h"
     include.install "bits/predefs.h"
