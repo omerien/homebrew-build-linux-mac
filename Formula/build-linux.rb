@@ -18,6 +18,7 @@ class BuildLinux < Formula
     include.install "wordswap.h"
     include.install "byteswap.h"
     include.install "features.h"
+    include.install "inttypes.h" # Because the one of MacOS SDK doesn't work
     include.install "libio.h"
     include.install "stdarg.h"
     include.install "stdint.h" # Because the one of MacOS SDK doesn't work
@@ -27,6 +28,8 @@ class BuildLinux < Formula
     include.install "string.h" # Because the one of MacOS SDK doesn't work
     include.install "time.h" # Because the one of MacOS SDK doesn't work
     include.install "unistd.h" # Because the one of MacOS SDK doesn't work
+    include.install "xlocale.h" # Because the one of MacOS SDK doesn't work
+    include.install "_xlocale.h # Clone of xlocale.h
     include.install "wchar.h"
     include.install "_G_config.h"
     include.install "i386/types.h" # Because the one of MacOS SDK doesn't work
