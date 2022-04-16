@@ -1,5 +1,5 @@
 class Libelf < Formula
-  desc "ELF object file access library"
+  desc "ELF object file access library. Local clone."
   homepage "https://web.archive.org/web/20181111033959/www.mr511.de/software/english.html"
   url "https://www.mirrorservice.org/sites/ftp.netbsd.org/pub/pkgsrc/distfiles/libelf-0.8.13.tar.gz"
   mirror "https://fossies.org/linux/misc/old/libelf-0.8.13.tar.gz"
