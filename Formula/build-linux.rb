@@ -48,6 +48,7 @@ class BuildLinux < Formula
     include.install "bits/signet.h"
     include.install "bits/stdio.h"
     include.install "bits/stdio_lim.h"
+    include.install "bits/string.h"
     include.install "bits/sys_errlist.h"
     include.install "bits/wordsize.h"
     include.install "bits/wchar.h"
