@@ -15,6 +15,7 @@ class BuildLinux < Formula
   def install
     include.install "alloca.h" # Because the one of MacOS SDK doesn't work
     include.install "endian.h"
+    include.instamm "errno.h"
     include.install "wordswap.h"
     include.install "byteswap.h"
     include.install "features.h"
@@ -34,6 +35,10 @@ class BuildLinux < Formula
     include.install "_xlocale.h" # Clone of xlocale.h
     include.install "wchar.h"
     include.install "_G_config.h"
+    include.install "asm/errno.h"
+    include.install "asm-generic/errno.h"
+    include.install "asm-generic/errno-base.h"
+    include.install "linux/errno.h"
     include.install "i386/types.h" # Because the one of MacOS SDK doesn't work
     include.install "gnu/option-groups.h"
     include.install "gnu/stubs.h"
@@ -45,6 +50,7 @@ class BuildLinux < Formula
     include.install "sys/sysmacros.h"
     include.install "bits/confname.h"
     include.install "bits/endian.h"
+    include.install "bits/errno.h"
     include.install "bits/predefs.h"
     include.install "bits/posix_opt.h"
     include.install "bits/pthreadtypes.h"
