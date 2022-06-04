@@ -20,4 +20,3 @@ brew formulae to build linux ON MAC
 
 - Future modified Linux : [edwardhalferty.com](https://edwardhalferty.com/2021/12/11/configuring-the-linux-kernel-from-macos/)
 - elf.h fix : https://github.com/nsabovic/homebrew-public
-- Nearly every C include file : https://sites.uclouvain.be/SystInfo/usr/include/(insert_name_of_the_file)
