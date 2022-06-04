@@ -13,59 +13,6 @@ class BuildLinux < Formula
   depends_on "ncurses"
 
   def install
-    include.install "alloca.h" # Because the one of MacOS SDK doesn't work
-    include.install "endian.h"
-    include.instamm "errno.h"
-    include.install "wordswap.h"
-    include.install "byteswap.h"
-    include.install "features.h"
-    include.install "getopt.h" # Because the one of MacOS SDK doesn't work
-    include.install "inttypes.h" # Because the one of MacOS SDK doesn't work
-    include.install "libio.h"
-    include.install "regex.h" # Because the one in MacOS SDK doesn't work
-    include.install "stdarg.h"
-    include.install "stdint.h" # Because the one of MacOS SDK doesn't work
-    include.install "stddef.h"
-    include.install "stdlib.h" # Because the one of MacOS SDK doesn't work
-    include.install "stdio.h" # Because the one of MacOS SDK doesn't work
-    include.install "string.h" # Because the one of MacOS SDK doesn't work
-    include.install "time.h" # Because the one of MacOS SDK doesn't work
-    include.install "unistd.h" # Because the one of MacOS SDK doesn't work
-    include.install "xlocale.h" # Because the one of MacOS SDK doesn't work
-    include.install "_xlocale.h" # Clone of xlocale.h
-    include.install "wchar.h"
-    include.install "_G_config.h"
-    include.install "asm/errno.h"
-    include.install "asm-generic/errno.h"
-    include.install "asm-generic/errno-base.h"
-    include.install "linux/errno.h"
-    include.install "i386/types.h" # Because the one of MacOS SDK doesn't work
-    include.install "gnu/option-groups.h"
-    include.install "gnu/stubs.h"
-    include.install "gnu/stubs-32.h"
-    include.install "gnu/stubs-64.h"
-    include.install "sys/cdefs.h"
-    include.install "sys/types.h"
-    include.install "sys/select.h" # Because the one of MacOS SDK doesn't work
-    include.install "sys/sysmacros.h"
-    include.install "bits/confname.h"
-    include.install "bits/endian.h"
-    include.install "bits/errno.h"
-    include.install "bits/predefs.h"
-    include.install "bits/posix_opt.h"
-    include.install "bits/pthreadtypes.h"
-    include.install "bits/select.h"
-    include.install "bits/signet.h"
-    include.install "bits/stdio.h"
-    include.install "bits/stdio_lim.h"
-    include.install "bits/string.h"
-    include.install "bits/string2.h"
-    include.install "bits/sys_errlist.h"
-    include.install "bits/wordsize.h"
-    include.install "bits/wchar.h"
-    include.install "bits/byteswap.h"
-    include.install "bits/time.h"
-    include.install "bits/types.h"
-    include.install "bits/typesizes.h"
+    
   end
 end
