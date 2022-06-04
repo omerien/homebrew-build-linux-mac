@@ -9,8 +9,11 @@ brew formulae to build linux ON MAC
 0. Install brew at [brew.sh](https://brew.sh)
 1. Execute in Terminal `brew install omerien/build-linux-mac/build-linux`
 2. Write this in your .bash_profile (you can remove it after building the kernel) : `PATH="/usr/local/opt/findutils/libexec/gnubin:/usr/local/opt/coreutils/libexec/gnubin:/usr/local/opt/gnu-tar/libexec/gnubin:/usr/local/opt/gnu-sed/libexec/gnubin:/usr/local/opt/make/libexec/gnubin:$PATH"` and `PKG_CONFIG_PATH="$PKG_CONFIG_PATH:/usr/local/opt/ncurses/lib/pkgconfig"`
-3. Execute `build-linux menu-config` (it should prompt you the make menuconfig menu)
-4. Execute `build-linux build-it` (it should give you the builded linux)
+3. Oh and write also this in your .bash_profile (if not already written) : ```CPATH=/opt/homebrew/include
+LIBRARY_PATH=/opt/homebrew/lib```
+4. Execute `build-linux setup` (if you already ran it in a previous build, do not run it.)
+5. Execute `build-linux menu-config` (it should prompt you the make menuconfig menu)
+6. Execute `build-linux build-it` (it should give you the builded linux)
 
 ## Contributors :
 
